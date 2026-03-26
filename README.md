@@ -72,7 +72,7 @@ Knowledge distillation using GPT-4-generated conversations (via OpenHermes-2.5) 
 | Distilled — acc_norm | 40.0% |
 | Delta vs baseline (acc_norm) | **-6.0%** |
 
-**Observation:** Distillation on a general-purpose dataset did not improve ARC benchmark scores. Likely reasons: only 1 training epoch, and `max_seq_length=512` which truncates many responses from OpenHermes. More epochs, a higher `max_seq_length`, or a dataset closer to ARC-style reasoning should help.
+**Observation:** Distillation on a general-purpose dataset did not improve ARC benchmark scores. Likely reasons: only 1 training epoch, and `max_seq_length=512` which truncates many responses from OpenHermes. More epochs, a higher `max_seq_length`, or a dataset closer to ARC-style reasoning should help .
 
 ---
 
